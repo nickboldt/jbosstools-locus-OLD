@@ -2,7 +2,7 @@
 
 ## Summary
 
-_JBoss Locus_ is an adjunct to [Eclipse Orbit](http://www.eclipse.org/orbit/). This project's purpose is to package non-OSGi POJO jars as OSGi bundles (wrapping them with additional metadata) and to publish them to an update site from which they can be consumed by p2 based builds and products. 
+_JBoss Tools Locus_ is an adjunct to [Eclipse Orbit](http://www.eclipse.org/orbit/). This project's purpose is to package non-OSGi POJO jars as OSGi bundles (wrapping them with additional metadata) and to publish them to an update site from which they can be consumed by p2 based builds and products. 
 
 This project's contents should never duplicate what's already in Eclipse Orbit; instead, it should provide newer versions of plugins already in Orbit, or plugins which cannot be included in Orbit for some reason (technical, licensing or otherwise).
 
@@ -23,7 +23,7 @@ This mandate means that if no eclipse.org project requests new jars or updates b
 Eclipse.org Orbit or a 3rd party jar are missing there will not be any updates/additions. This have lead to us being
 stuck with older or buggy 3rd party jars than what we would like thus we needed to find another way to handle this.
 
-Thus _JBoss Locus_ exists mainly to support development of [JBoss Tools](http://jboss.org/tools), but
+Thus _JBoss Tools Locus_ exists mainly to support development of [JBoss Tools](http://jboss.org/tools), but
 the Locus site is not tied to any specific release of JBoss Tools. 
 
 The site it self is not meant to be used directly by users, but mainly used to have a common set of dependencies that
