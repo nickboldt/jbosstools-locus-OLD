@@ -7,7 +7,7 @@
   <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
   <properties>
-    <tychoVersion>0.17.0</tychoVersion>
+    <tychoVersion>0.18.0</tychoVersion>
     <tychoExtrasVersion>${tychoVersion}</tychoExtrasVersion>
     <BUILD_ALIAS>Final</BUILD_ALIAS>
     <targetEclipseVersion>4.3 (Kepler)</targetEclipseVersion>
