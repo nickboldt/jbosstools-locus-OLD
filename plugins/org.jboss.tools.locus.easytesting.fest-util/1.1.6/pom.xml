@@ -21,7 +21,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <id>get-binaries</id>
             <phase>validate</phase>
             <goals>
-              <goal>copy</goal>
+              <goal>unpack</goal>
             </goals>
             <configuration>
               <stripVersion>true</stripVersion>
@@ -31,14 +31,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                   <groupId>org.easytesting</groupId>
                   <artifactId>fest-util</artifactId>
                   <version>1.1.6</version>
-                  <destFileName>fest-util.jar</destFileName>
+                  <outputDirectory>${basedir}/bin</outputDirectory>
                 </artifactItem>
                 <artifactItem>
                   <groupId>org.easytesting</groupId>
                   <artifactId>fest-util</artifactId>
                   <version>1.1.6</version>
                   <classifier>sources</classifier>
-                  <destFileName>fest-util-src.jar</destFileName>
+                  <outputDirectory>${basedir}/src</outputDirectory>
                 </artifactItem>
               </artifactItems>
             </configuration>

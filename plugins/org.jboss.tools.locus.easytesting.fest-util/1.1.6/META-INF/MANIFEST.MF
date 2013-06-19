@@ -1,10 +1,9 @@
 Manifest-Version: 1.0
 Bundle-ManifestVersion: 2
 Bundle-Name: %pluginName
-Bundle-SymbolicName: org.jboss.tools.locus.easytesting.fest-util
+Bundle-SymbolicName: org.jboss.tools.locus.easytesting.fest-util;singleton:=true
 Bundle-Version: 1.1.6.qualifier
-Bundle-ClassPath: fest-util.jar
 Bundle-Vendor: %providerName
 Bundle-Localization: plugin
 Bundle-RequiredExecutionEnvironment: JavaSE-1.6
-Export-Package: org.fest.assertions
+Export-Package: org.fest.util
