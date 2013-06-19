@@ -21,7 +21,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
             <id>get-binaries</id>
             <phase>validate</phase>
             <goals>
-              <goal>copy</goal>
+              <goal>unpack</goal>
             </goals>
             <configuration>
               <stripVersion>true</stripVersion>
@@ -31,14 +31,14 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xs
                   <groupId>org.easytesting</groupId>
                   <artifactId>fest-assert</artifactId>
                   <version>1.4</version>
-                  <destFileName>fest-assert.jar</destFileName>
+                  <outputDirectory>${basedir}/bin</outputDirectory>
                 </artifactItem>
                 <artifactItem>
                   <groupId>org.easytesting</groupId>
                   <artifactId>fest-assert</artifactId>
                   <version>1.4</version>
                   <classifier>sources</classifier>
-                  <destFileName>fest-assert-src.jar</destFileName>
+                  <outputDirectory>${basedir}/src</outputDirectory>
                 </artifactItem>
               </artifactItems>
             </configuration>
